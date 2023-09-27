@@ -17,6 +17,10 @@
 		DE7DE1332AC4253100A8218D /* TestTwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE1322AC4253100A8218D /* TestTwoSum.swift */; };
 		DE7DE1362AC434EA00A8218D /* AddTwoSumNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE1352AC434EA00A8218D /* AddTwoSumNumber.swift */; };
 		DE7DE1392AC436DD00A8218D /* TestAddTwoSumNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE1382AC436DD00A8218D /* TestAddTwoSumNumber.swift */; };
+		DE7DE13C2AC46F1000A8218D /* LongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE13B2AC46F1000A8218D /* LongestSubstring.swift */; };
+		DE7DE13F2AC46F3900A8218D /* TestLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE13E2AC46F3900A8218D /* TestLongestSubstring.swift */; };
+		DE7DE1422AC47E9A00A8218D /* MedianTwoSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE1412AC47E9A00A8218D /* MedianTwoSortedArray.swift */; };
+		DE7DE1442AC47EBE00A8218D /* TestMedianTwoSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE1432AC47EBD00A8218D /* TestMedianTwoSortedArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +54,10 @@
 		DE7DE1322AC4253100A8218D /* TestTwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTwoSum.swift; sourceTree = "<group>"; };
 		DE7DE1352AC434EA00A8218D /* AddTwoSumNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoSumNumber.swift; sourceTree = "<group>"; };
 		DE7DE1382AC436DD00A8218D /* TestAddTwoSumNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAddTwoSumNumber.swift; sourceTree = "<group>"; };
+		DE7DE13B2AC46F1000A8218D /* LongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstring.swift; sourceTree = "<group>"; };
+		DE7DE13E2AC46F3900A8218D /* TestLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLongestSubstring.swift; sourceTree = "<group>"; };
+		DE7DE1412AC47E9A00A8218D /* MedianTwoSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianTwoSortedArray.swift; sourceTree = "<group>"; };
+		DE7DE1432AC47EBD00A8218D /* TestMedianTwoSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMedianTwoSortedArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,7 @@
 		DE7DE1032AC4203200A8218D /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				DE7DE13A2AC46EE100A8218D /* String */,
 				DE7DE1342AC434D900A8218D /* LinkedList */,
 				DE7DE12E2AC424CE00A8218D /* Array */,
 				DE7DE1042AC4203200A8218D /* leetcodeApp.swift */,
@@ -121,6 +130,7 @@
 		DE7DE1142AC4203600A8218D /* leetcodeTests */ = {
 			isa = PBXGroup;
 			children = (
+				DE7DE13D2AC46F2800A8218D /* String */,
 				DE7DE1372AC436CA00A8218D /* LinkedList */,
 				DE7DE1312AC424FE00A8218D /* Array */,
 			);
@@ -140,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				DE7DE12F2AC424DD00A8218D /* TwoSum.swift */,
+				DE7DE1412AC47E9A00A8218D /* MedianTwoSortedArray.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -148,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				DE7DE1322AC4253100A8218D /* TestTwoSum.swift */,
+				DE7DE1432AC47EBD00A8218D /* TestMedianTwoSortedArray.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -166,6 +178,22 @@
 				DE7DE1382AC436DD00A8218D /* TestAddTwoSumNumber.swift */,
 			);
 			path = LinkedList;
+			sourceTree = "<group>";
+		};
+		DE7DE13A2AC46EE100A8218D /* String */ = {
+			isa = PBXGroup;
+			children = (
+				DE7DE13B2AC46F1000A8218D /* LongestSubstring.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		DE7DE13D2AC46F2800A8218D /* String */ = {
+			isa = PBXGroup;
+			children = (
+				DE7DE13E2AC46F3900A8218D /* TestLongestSubstring.swift */,
+			);
+			path = String;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +328,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE7DE1072AC4203200A8218D /* ContentView.swift in Sources */,
+				DE7DE1422AC47E9A00A8218D /* MedianTwoSortedArray.swift in Sources */,
+				DE7DE13C2AC46F1000A8218D /* LongestSubstring.swift in Sources */,
 				DE7DE1362AC434EA00A8218D /* AddTwoSumNumber.swift in Sources */,
 				DE7DE1052AC4203200A8218D /* leetcodeApp.swift in Sources */,
 				DE7DE1302AC424DD00A8218D /* TwoSum.swift in Sources */,
@@ -310,6 +340,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE7DE13F2AC46F3900A8218D /* TestLongestSubstring.swift in Sources */,
+				DE7DE1442AC47EBE00A8218D /* TestMedianTwoSortedArray.swift in Sources */,
 				DE7DE1332AC4253100A8218D /* TestTwoSum.swift in Sources */,
 				DE7DE1392AC436DD00A8218D /* TestAddTwoSumNumber.swift in Sources */,
 			);
