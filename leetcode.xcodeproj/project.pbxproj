@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE6918062AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6918052AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift */; };
+		DE6918092AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6918082AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift */; };
 		DE7DE1052AC4203200A8218D /* leetcodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE1042AC4203200A8218D /* leetcodeApp.swift */; };
 		DE7DE1072AC4203200A8218D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE1062AC4203200A8218D /* ContentView.swift */; };
 		DE7DE1092AC4203500A8218D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7DE1082AC4203500A8218D /* Assets.xcassets */; };
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE6918052AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LongestPalindromicSubstring .swift"; sourceTree = "<group>"; };
+		DE6918082AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLongestPalindromicSubstring.swift; sourceTree = "<group>"; };
 		DE7DE1012AC4203200A8218D /* leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE7DE1042AC4203200A8218D /* leetcodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = leetcodeApp.swift; sourceTree = "<group>"; };
 		DE7DE1062AC4203200A8218D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -184,6 +188,7 @@
 			isa = PBXGroup;
 			children = (
 				DE7DE13B2AC46F1000A8218D /* LongestSubstring.swift */,
+				DE6918052AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				DE7DE13E2AC46F3900A8218D /* TestLongestSubstring.swift */,
+				DE6918082AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -332,6 +338,7 @@
 				DE7DE13C2AC46F1000A8218D /* LongestSubstring.swift in Sources */,
 				DE7DE1362AC434EA00A8218D /* AddTwoSumNumber.swift in Sources */,
 				DE7DE1052AC4203200A8218D /* leetcodeApp.swift in Sources */,
+				DE6918062AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift in Sources */,
 				DE7DE1302AC424DD00A8218D /* TwoSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +350,7 @@
 				DE7DE13F2AC46F3900A8218D /* TestLongestSubstring.swift in Sources */,
 				DE7DE1442AC47EBE00A8218D /* TestMedianTwoSortedArray.swift in Sources */,
 				DE7DE1332AC4253100A8218D /* TestTwoSum.swift in Sources */,
+				DE6918092AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift in Sources */,
 				DE7DE1392AC436DD00A8218D /* TestAddTwoSumNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
