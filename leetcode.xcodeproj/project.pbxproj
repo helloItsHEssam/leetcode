@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE055B782ACBEDDB0025C944 /* ZigzagConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE055B772ACBEDDB0025C944 /* ZigzagConversion.swift */; };
+		DE055B7A2ACBEE000025C944 /* ZigzagConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE055B792ACBEE000025C944 /* ZigzagConversionTests.swift */; };
 		DE6918062AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6918052AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift */; };
 		DE6918092AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6918082AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift */; };
 		DE7DE1052AC4203200A8218D /* leetcodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE1042AC4203200A8218D /* leetcodeApp.swift */; };
@@ -43,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DE055B772ACBEDDB0025C944 /* ZigzagConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigzagConversion.swift; sourceTree = "<group>"; };
+		DE055B792ACBEE000025C944 /* ZigzagConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigzagConversionTests.swift; sourceTree = "<group>"; };
 		DE6918052AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LongestPalindromicSubstring .swift"; sourceTree = "<group>"; };
 		DE6918082AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLongestPalindromicSubstring.swift; sourceTree = "<group>"; };
 		DE7DE1012AC4203200A8218D /* leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -189,6 +193,7 @@
 			children = (
 				DE7DE13B2AC46F1000A8218D /* LongestSubstring.swift */,
 				DE6918052AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift */,
+				DE055B772ACBEDDB0025C944 /* ZigzagConversion.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -198,6 +203,7 @@
 			children = (
 				DE7DE13E2AC46F3900A8218D /* TestLongestSubstring.swift */,
 				DE6918082AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift */,
+				DE055B792ACBEE000025C944 /* ZigzagConversionTests.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -336,6 +342,7 @@
 				DE7DE1072AC4203200A8218D /* ContentView.swift in Sources */,
 				DE7DE1422AC47E9A00A8218D /* MedianTwoSortedArray.swift in Sources */,
 				DE7DE13C2AC46F1000A8218D /* LongestSubstring.swift in Sources */,
+				DE055B782ACBEDDB0025C944 /* ZigzagConversion.swift in Sources */,
 				DE7DE1362AC434EA00A8218D /* AddTwoSumNumber.swift in Sources */,
 				DE7DE1052AC4203200A8218D /* leetcodeApp.swift in Sources */,
 				DE6918062AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift in Sources */,
@@ -352,6 +359,7 @@
 				DE7DE1332AC4253100A8218D /* TestTwoSum.swift in Sources */,
 				DE6918092AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift in Sources */,
 				DE7DE1392AC436DD00A8218D /* TestAddTwoSumNumber.swift in Sources */,
+				DE055B7A2ACBEE000025C944 /* ZigzagConversionTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
