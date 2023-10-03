@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		DE055B782ACBEDDB0025C944 /* ZigzagConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE055B772ACBEDDB0025C944 /* ZigzagConversion.swift */; };
 		DE055B7A2ACBEE000025C944 /* ZigzagConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE055B792ACBEE000025C944 /* ZigzagConversionTests.swift */; };
+		DE055B7D2ACC19620025C944 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE055B7C2ACC19620025C944 /* ReverseInteger.swift */; };
+		DE055B802ACC19A50025C944 /* ReverseIntegerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE055B7F2ACC19A50025C944 /* ReverseIntegerTests.swift */; };
 		DE6918062AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6918052AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift */; };
 		DE6918092AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6918082AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift */; };
 		DE7DE1052AC4203200A8218D /* leetcodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE1042AC4203200A8218D /* leetcodeApp.swift */; };
@@ -47,6 +49,8 @@
 /* Begin PBXFileReference section */
 		DE055B772ACBEDDB0025C944 /* ZigzagConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigzagConversion.swift; sourceTree = "<group>"; };
 		DE055B792ACBEE000025C944 /* ZigzagConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigzagConversionTests.swift; sourceTree = "<group>"; };
+		DE055B7C2ACC19620025C944 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
+		DE055B7F2ACC19A50025C944 /* ReverseIntegerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseIntegerTests.swift; sourceTree = "<group>"; };
 		DE6918052AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LongestPalindromicSubstring .swift"; sourceTree = "<group>"; };
 		DE6918082AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLongestPalindromicSubstring.swift; sourceTree = "<group>"; };
 		DE7DE1012AC4203200A8218D /* leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -93,6 +97,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DE055B7B2ACC19540025C944 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				DE055B7C2ACC19620025C944 /* ReverseInteger.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		DE055B7E2ACC199A0025C944 /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				DE055B7F2ACC19A50025C944 /* ReverseIntegerTests.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
 		DE7DE0F82AC4203200A8218D = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +136,7 @@
 		DE7DE1032AC4203200A8218D /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				DE055B7B2ACC19540025C944 /* Math */,
 				DE7DE13A2AC46EE100A8218D /* String */,
 				DE7DE1342AC434D900A8218D /* LinkedList */,
 				DE7DE12E2AC424CE00A8218D /* Array */,
@@ -138,6 +159,7 @@
 		DE7DE1142AC4203600A8218D /* leetcodeTests */ = {
 			isa = PBXGroup;
 			children = (
+				DE055B7E2ACC199A0025C944 /* Math */,
 				DE7DE13D2AC46F2800A8218D /* String */,
 				DE7DE1372AC436CA00A8218D /* LinkedList */,
 				DE7DE1312AC424FE00A8218D /* Array */,
@@ -347,6 +369,7 @@
 				DE7DE1052AC4203200A8218D /* leetcodeApp.swift in Sources */,
 				DE6918062AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift in Sources */,
 				DE7DE1302AC424DD00A8218D /* TwoSum.swift in Sources */,
+				DE055B7D2ACC19620025C944 /* ReverseInteger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +379,7 @@
 			files = (
 				DE7DE13F2AC46F3900A8218D /* TestLongestSubstring.swift in Sources */,
 				DE7DE1442AC47EBE00A8218D /* TestMedianTwoSortedArray.swift in Sources */,
+				DE055B802ACC19A50025C944 /* ReverseIntegerTests.swift in Sources */,
 				DE7DE1332AC4253100A8218D /* TestTwoSum.swift in Sources */,
 				DE6918092AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift in Sources */,
 				DE7DE1392AC436DD00A8218D /* TestAddTwoSumNumber.swift in Sources */,

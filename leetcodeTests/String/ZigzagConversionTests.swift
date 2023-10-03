@@ -10,7 +10,7 @@ import XCTest
 
 final class ZigzagConversionTests: XCTestCase {
     
-    func testLongestPalindrome() {
+    func testZigzagConversion() {
         
         self.measure {
             
