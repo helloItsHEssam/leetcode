@@ -27,6 +27,8 @@
 		DE7DE13F2AC46F3900A8218D /* TestLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE13E2AC46F3900A8218D /* TestLongestSubstring.swift */; };
 		DE7DE1422AC47E9A00A8218D /* MedianTwoSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE1412AC47E9A00A8218D /* MedianTwoSortedArray.swift */; };
 		DE7DE1442AC47EBE00A8218D /* TestMedianTwoSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE1432AC47EBD00A8218D /* TestMedianTwoSortedArray.swift */; };
+		DEF164E32ACDEC6F00F38F67 /* StringToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF164E22ACDEC6F00F38F67 /* StringToInt.swift */; };
+		DEF164E72ACDECB300F38F67 /* StringToIntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF164E62ACDECB300F38F67 /* StringToIntTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		DE7DE13E2AC46F3900A8218D /* TestLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLongestSubstring.swift; sourceTree = "<group>"; };
 		DE7DE1412AC47E9A00A8218D /* MedianTwoSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianTwoSortedArray.swift; sourceTree = "<group>"; };
 		DE7DE1432AC47EBD00A8218D /* TestMedianTwoSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMedianTwoSortedArray.swift; sourceTree = "<group>"; };
+		DEF164E22ACDEC6F00F38F67 /* StringToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToInt.swift; sourceTree = "<group>"; };
+		DEF164E62ACDECB300F38F67 /* StringToIntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToIntTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +220,7 @@
 				DE7DE13B2AC46F1000A8218D /* LongestSubstring.swift */,
 				DE6918052AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift */,
 				DE055B772ACBEDDB0025C944 /* ZigzagConversion.swift */,
+				DEF164E22ACDEC6F00F38F67 /* StringToInt.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 				DE7DE13E2AC46F3900A8218D /* TestLongestSubstring.swift */,
 				DE6918082AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift */,
 				DE055B792ACBEE000025C944 /* ZigzagConversionTests.swift */,
+				DEF164E62ACDECB300F38F67 /* StringToIntTests.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -301,7 +307,7 @@
 					};
 					DE7DE1102AC4203600A8218D = {
 						CreatedOnToolsVersion = 14.2;
-						LastSwiftMigration = 1420;
+						LastSwiftMigration = 1430;
 						TestTargetID = DE7DE1002AC4203200A8218D;
 					};
 					DE7DE11A2AC4203600A8218D = {
@@ -368,6 +374,7 @@
 				DE7DE1362AC434EA00A8218D /* AddTwoSumNumber.swift in Sources */,
 				DE7DE1052AC4203200A8218D /* leetcodeApp.swift in Sources */,
 				DE6918062AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift in Sources */,
+				DEF164E32ACDEC6F00F38F67 /* StringToInt.swift in Sources */,
 				DE7DE1302AC424DD00A8218D /* TwoSum.swift in Sources */,
 				DE055B7D2ACC19620025C944 /* ReverseInteger.swift in Sources */,
 			);
@@ -378,6 +385,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE7DE13F2AC46F3900A8218D /* TestLongestSubstring.swift in Sources */,
+				DEF164E72ACDECB300F38F67 /* StringToIntTests.swift in Sources */,
 				DE7DE1442AC47EBE00A8218D /* TestMedianTwoSortedArray.swift in Sources */,
 				DE055B802ACC19A50025C944 /* ReverseIntegerTests.swift in Sources */,
 				DE7DE1332AC4253100A8218D /* TestTwoSum.swift in Sources */,
