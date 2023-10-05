@@ -27,6 +27,8 @@
 		DE7DE13F2AC46F3900A8218D /* TestLongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE13E2AC46F3900A8218D /* TestLongestSubstring.swift */; };
 		DE7DE1422AC47E9A00A8218D /* MedianTwoSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE1412AC47E9A00A8218D /* MedianTwoSortedArray.swift */; };
 		DE7DE1442AC47EBE00A8218D /* TestMedianTwoSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE1432AC47EBD00A8218D /* TestMedianTwoSortedArray.swift */; };
+		DECD02BD2ACF1E71004C537C /* ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD02BC2ACF1E71004C537C /* ContainerWithMostWater.swift */; };
+		DECD02BF2ACF1E85004C537C /* ContainerWithMostWaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD02BE2ACF1E85004C537C /* ContainerWithMostWaterTests.swift */; };
 		DEF164E32ACDEC6F00F38F67 /* StringToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF164E22ACDEC6F00F38F67 /* StringToInt.swift */; };
 		DEF164E72ACDECB300F38F67 /* StringToIntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF164E62ACDECB300F38F67 /* StringToIntTests.swift */; };
 /* End PBXBuildFile section */
@@ -72,6 +74,8 @@
 		DE7DE13E2AC46F3900A8218D /* TestLongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLongestSubstring.swift; sourceTree = "<group>"; };
 		DE7DE1412AC47E9A00A8218D /* MedianTwoSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianTwoSortedArray.swift; sourceTree = "<group>"; };
 		DE7DE1432AC47EBD00A8218D /* TestMedianTwoSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMedianTwoSortedArray.swift; sourceTree = "<group>"; };
+		DECD02BC2ACF1E71004C537C /* ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater.swift; sourceTree = "<group>"; };
+		DECD02BE2ACF1E85004C537C /* ContainerWithMostWaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWaterTests.swift; sourceTree = "<group>"; };
 		DEF164E22ACDEC6F00F38F67 /* StringToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToInt.swift; sourceTree = "<group>"; };
 		DEF164E62ACDECB300F38F67 /* StringToIntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToIntTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -185,6 +189,7 @@
 			children = (
 				DE7DE12F2AC424DD00A8218D /* TwoSum.swift */,
 				DE7DE1412AC47E9A00A8218D /* MedianTwoSortedArray.swift */,
+				DECD02BC2ACF1E71004C537C /* ContainerWithMostWater.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 			children = (
 				DE7DE1322AC4253100A8218D /* TestTwoSum.swift */,
 				DE7DE1432AC47EBD00A8218D /* TestMedianTwoSortedArray.swift */,
+				DECD02BE2ACF1E85004C537C /* ContainerWithMostWaterTests.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -372,6 +378,7 @@
 				DE7DE13C2AC46F1000A8218D /* LongestSubstring.swift in Sources */,
 				DE055B782ACBEDDB0025C944 /* ZigzagConversion.swift in Sources */,
 				DE7DE1362AC434EA00A8218D /* AddTwoSumNumber.swift in Sources */,
+				DECD02BD2ACF1E71004C537C /* ContainerWithMostWater.swift in Sources */,
 				DE7DE1052AC4203200A8218D /* leetcodeApp.swift in Sources */,
 				DE6918062AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift in Sources */,
 				DEF164E32ACDEC6F00F38F67 /* StringToInt.swift in Sources */,
@@ -392,6 +399,7 @@
 				DE6918092AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift in Sources */,
 				DE7DE1392AC436DD00A8218D /* TestAddTwoSumNumber.swift in Sources */,
 				DE055B7A2ACBEE000025C944 /* ZigzagConversionTests.swift in Sources */,
+				DECD02BF2ACF1E85004C537C /* ContainerWithMostWaterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
