@@ -11,6 +11,10 @@
 		DE055B7A2ACBEE000025C944 /* ZigzagConversionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE055B792ACBEE000025C944 /* ZigzagConversionTests.swift */; };
 		DE055B7D2ACC19620025C944 /* ReverseInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE055B7C2ACC19620025C944 /* ReverseInteger.swift */; };
 		DE055B802ACC19A50025C944 /* ReverseIntegerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE055B7F2ACC19A50025C944 /* ReverseIntegerTests.swift */; };
+		DE33211D2ADBD4DC00BA64E4 /* IntToRoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33211C2ADBD4DC00BA64E4 /* IntToRoman.swift */; };
+		DE3321202ADBD50800BA64E4 /* IntToRomanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33211F2ADBD50800BA64E4 /* IntToRomanTests.swift */; };
+		DE3321222ADE5FD000BA64E4 /* RomanToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3321212ADE5FD000BA64E4 /* RomanToInt.swift */; };
+		DE3321242ADE5FFC00BA64E4 /* RomanToIntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3321232ADE5FFC00BA64E4 /* RomanToIntTests.swift */; };
 		DE6918062AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6918052AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift */; };
 		DE6918092AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6918082AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift */; };
 		DE7DE1052AC4203200A8218D /* leetcodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE1042AC4203200A8218D /* leetcodeApp.swift */; };
@@ -55,6 +59,10 @@
 		DE055B792ACBEE000025C944 /* ZigzagConversionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigzagConversionTests.swift; sourceTree = "<group>"; };
 		DE055B7C2ACC19620025C944 /* ReverseInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseInteger.swift; sourceTree = "<group>"; };
 		DE055B7F2ACC19A50025C944 /* ReverseIntegerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseIntegerTests.swift; sourceTree = "<group>"; };
+		DE33211C2ADBD4DC00BA64E4 /* IntToRoman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntToRoman.swift; sourceTree = "<group>"; };
+		DE33211F2ADBD50800BA64E4 /* IntToRomanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntToRomanTests.swift; sourceTree = "<group>"; };
+		DE3321212ADE5FD000BA64E4 /* RomanToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInt.swift; sourceTree = "<group>"; };
+		DE3321232ADE5FFC00BA64E4 /* RomanToIntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToIntTests.swift; sourceTree = "<group>"; };
 		DE6918052AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LongestPalindromicSubstring .swift"; sourceTree = "<group>"; };
 		DE6918082AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLongestPalindromicSubstring.swift; sourceTree = "<group>"; };
 		DE7DE1012AC4203200A8218D /* leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -121,6 +129,22 @@
 			path = Math;
 			sourceTree = "<group>";
 		};
+		DE33211B2ADBD4CA00BA64E4 /* Int */ = {
+			isa = PBXGroup;
+			children = (
+				DE33211C2ADBD4DC00BA64E4 /* IntToRoman.swift */,
+			);
+			path = Int;
+			sourceTree = "<group>";
+		};
+		DE33211E2ADBD4FA00BA64E4 /* Int */ = {
+			isa = PBXGroup;
+			children = (
+				DE33211F2ADBD50800BA64E4 /* IntToRomanTests.swift */,
+			);
+			path = Int;
+			sourceTree = "<group>";
+		};
 		DE7DE0F82AC4203200A8218D = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +168,7 @@
 		DE7DE1032AC4203200A8218D /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				DE33211B2ADBD4CA00BA64E4 /* Int */,
 				DE055B7B2ACC19540025C944 /* Math */,
 				DE7DE13A2AC46EE100A8218D /* String */,
 				DE7DE1342AC434D900A8218D /* LinkedList */,
@@ -167,6 +192,7 @@
 		DE7DE1142AC4203600A8218D /* leetcodeTests */ = {
 			isa = PBXGroup;
 			children = (
+				DE33211E2ADBD4FA00BA64E4 /* Int */,
 				DE055B7E2ACC199A0025C944 /* Math */,
 				DE7DE13D2AC46F2800A8218D /* String */,
 				DE7DE1372AC436CA00A8218D /* LinkedList */,
@@ -227,6 +253,7 @@
 				DE6918052AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift */,
 				DE055B772ACBEDDB0025C944 /* ZigzagConversion.swift */,
 				DEF164E22ACDEC6F00F38F67 /* StringToInt.swift */,
+				DE3321212ADE5FD000BA64E4 /* RomanToInt.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -238,6 +265,7 @@
 				DE6918082AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift */,
 				DE055B792ACBEE000025C944 /* ZigzagConversionTests.swift */,
 				DEF164E62ACDECB300F38F67 /* StringToIntTests.swift */,
+				DE3321232ADE5FFC00BA64E4 /* RomanToIntTests.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -379,6 +407,8 @@
 				DE055B782ACBEDDB0025C944 /* ZigzagConversion.swift in Sources */,
 				DE7DE1362AC434EA00A8218D /* AddTwoSumNumber.swift in Sources */,
 				DECD02BD2ACF1E71004C537C /* ContainerWithMostWater.swift in Sources */,
+				DE33211D2ADBD4DC00BA64E4 /* IntToRoman.swift in Sources */,
+				DE3321222ADE5FD000BA64E4 /* RomanToInt.swift in Sources */,
 				DE7DE1052AC4203200A8218D /* leetcodeApp.swift in Sources */,
 				DE6918062AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift in Sources */,
 				DEF164E32ACDEC6F00F38F67 /* StringToInt.swift in Sources */,
@@ -393,9 +423,11 @@
 			files = (
 				DE7DE13F2AC46F3900A8218D /* TestLongestSubstring.swift in Sources */,
 				DEF164E72ACDECB300F38F67 /* StringToIntTests.swift in Sources */,
+				DE3321202ADBD50800BA64E4 /* IntToRomanTests.swift in Sources */,
 				DE7DE1442AC47EBE00A8218D /* TestMedianTwoSortedArray.swift in Sources */,
 				DE055B802ACC19A50025C944 /* ReverseIntegerTests.swift in Sources */,
 				DE7DE1332AC4253100A8218D /* TestTwoSum.swift in Sources */,
+				DE3321242ADE5FFC00BA64E4 /* RomanToIntTests.swift in Sources */,
 				DE6918092AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift in Sources */,
 				DE7DE1392AC436DD00A8218D /* TestAddTwoSumNumber.swift in Sources */,
 				DE055B7A2ACBEE000025C944 /* ZigzagConversionTests.swift in Sources */,
