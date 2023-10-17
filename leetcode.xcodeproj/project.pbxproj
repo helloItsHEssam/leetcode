@@ -15,6 +15,8 @@
 		DE3321202ADBD50800BA64E4 /* IntToRomanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE33211F2ADBD50800BA64E4 /* IntToRomanTests.swift */; };
 		DE3321222ADE5FD000BA64E4 /* RomanToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3321212ADE5FD000BA64E4 /* RomanToInt.swift */; };
 		DE3321242ADE5FFC00BA64E4 /* RomanToIntTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3321232ADE5FFC00BA64E4 /* RomanToIntTests.swift */; };
+		DE3321282ADEF42C00BA64E4 /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3321272ADEF42C00BA64E4 /* ThreeSum.swift */; };
+		DE33212A2ADEF44D00BA64E4 /* ThreeSumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE3321292ADEF44D00BA64E4 /* ThreeSumTests.swift */; };
 		DE6918062AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6918052AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift */; };
 		DE6918092AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6918082AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift */; };
 		DE7DE1052AC4203200A8218D /* leetcodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7DE1042AC4203200A8218D /* leetcodeApp.swift */; };
@@ -63,6 +65,8 @@
 		DE33211F2ADBD50800BA64E4 /* IntToRomanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntToRomanTests.swift; sourceTree = "<group>"; };
 		DE3321212ADE5FD000BA64E4 /* RomanToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInt.swift; sourceTree = "<group>"; };
 		DE3321232ADE5FFC00BA64E4 /* RomanToIntTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToIntTests.swift; sourceTree = "<group>"; };
+		DE3321272ADEF42C00BA64E4 /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
+		DE3321292ADEF44D00BA64E4 /* ThreeSumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSumTests.swift; sourceTree = "<group>"; };
 		DE6918052AC56DB8000BD2C9 /* LongestPalindromicSubstring .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LongestPalindromicSubstring .swift"; sourceTree = "<group>"; };
 		DE6918082AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLongestPalindromicSubstring.swift; sourceTree = "<group>"; };
 		DE7DE1012AC4203200A8218D /* leetcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -216,6 +220,7 @@
 				DE7DE12F2AC424DD00A8218D /* TwoSum.swift */,
 				DE7DE1412AC47E9A00A8218D /* MedianTwoSortedArray.swift */,
 				DECD02BC2ACF1E71004C537C /* ContainerWithMostWater.swift */,
+				DE3321272ADEF42C00BA64E4 /* ThreeSum.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -226,6 +231,7 @@
 				DE7DE1322AC4253100A8218D /* TestTwoSum.swift */,
 				DE7DE1432AC47EBD00A8218D /* TestMedianTwoSortedArray.swift */,
 				DECD02BE2ACF1E85004C537C /* ContainerWithMostWaterTests.swift */,
+				DE3321292ADEF44D00BA64E4 /* ThreeSumTests.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -407,6 +413,7 @@
 				DE055B782ACBEDDB0025C944 /* ZigzagConversion.swift in Sources */,
 				DE7DE1362AC434EA00A8218D /* AddTwoSumNumber.swift in Sources */,
 				DECD02BD2ACF1E71004C537C /* ContainerWithMostWater.swift in Sources */,
+				DE3321282ADEF42C00BA64E4 /* ThreeSum.swift in Sources */,
 				DE33211D2ADBD4DC00BA64E4 /* IntToRoman.swift in Sources */,
 				DE3321222ADE5FD000BA64E4 /* RomanToInt.swift in Sources */,
 				DE7DE1052AC4203200A8218D /* leetcodeApp.swift in Sources */,
@@ -431,6 +438,7 @@
 				DE6918092AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift in Sources */,
 				DE7DE1392AC436DD00A8218D /* TestAddTwoSumNumber.swift in Sources */,
 				DE055B7A2ACBEE000025C944 /* ZigzagConversionTests.swift in Sources */,
+				DE33212A2ADEF44D00BA64E4 /* ThreeSumTests.swift in Sources */,
 				DECD02BF2ACF1E85004C537C /* ContainerWithMostWaterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
