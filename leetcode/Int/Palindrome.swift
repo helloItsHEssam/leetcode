@@ -8,7 +8,7 @@
 import Foundation
 
 struct Stack {
-    private var array = [Character]()
+     var array = [Character]()
     
     mutating func push(_ x: Character) {
         array.append(x)
