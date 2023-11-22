@@ -39,6 +39,8 @@
 		DE9035B02B0DFA2A00C99A34 /* LongestCommonPrefixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9035AF2B0DFA2A00C99A34 /* LongestCommonPrefixTests.swift */; };
 		DE9035B22B0DFFF400C99A34 /* ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9035B12B0DFFF400C99A34 /* ValidParentheses.swift */; };
 		DE9035B42B0E003E00C99A34 /* ValidParenthesesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9035B32B0E003E00C99A34 /* ValidParenthesesTests.swift */; };
+		DE9035B62B0E07C100C99A34 /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9035B52B0E07C100C99A34 /* MergeTwoSortedLists.swift */; };
+		DE9035B82B0E07E600C99A34 /* MergeTwoSortedListsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9035B72B0E07E600C99A34 /* MergeTwoSortedListsTests.swift */; };
 		DECD02BD2ACF1E71004C537C /* ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD02BC2ACF1E71004C537C /* ContainerWithMostWater.swift */; };
 		DECD02BF2ACF1E85004C537C /* ContainerWithMostWaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD02BE2ACF1E85004C537C /* ContainerWithMostWaterTests.swift */; };
 		DEF164E32ACDEC6F00F38F67 /* StringToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF164E22ACDEC6F00F38F67 /* StringToInt.swift */; };
@@ -98,6 +100,8 @@
 		DE9035AF2B0DFA2A00C99A34 /* LongestCommonPrefixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonPrefixTests.swift; sourceTree = "<group>"; };
 		DE9035B12B0DFFF400C99A34 /* ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParentheses.swift; sourceTree = "<group>"; };
 		DE9035B32B0E003E00C99A34 /* ValidParenthesesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidParenthesesTests.swift; sourceTree = "<group>"; };
+		DE9035B52B0E07C100C99A34 /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
+		DE9035B72B0E07E600C99A34 /* MergeTwoSortedListsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedListsTests.swift; sourceTree = "<group>"; };
 		DECD02BC2ACF1E71004C537C /* ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater.swift; sourceTree = "<group>"; };
 		DECD02BE2ACF1E85004C537C /* ContainerWithMostWaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWaterTests.swift; sourceTree = "<group>"; };
 		DEF164E22ACDEC6F00F38F67 /* StringToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToInt.swift; sourceTree = "<group>"; };
@@ -254,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				DE7DE1352AC434EA00A8218D /* AddTwoSumNumber.swift */,
+				DE9035B52B0E07C100C99A34 /* MergeTwoSortedLists.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 			isa = PBXGroup;
 			children = (
 				DE7DE1382AC436DD00A8218D /* TestAddTwoSumNumber.swift */,
+				DE9035B72B0E07E600C99A34 /* MergeTwoSortedListsTests.swift */,
 			);
 			path = LinkedList;
 			sourceTree = "<group>";
@@ -429,6 +435,7 @@
 				DE9035AA2B0DF05A00C99A34 /* Palindrome.swift in Sources */,
 				DE7DE1422AC47E9A00A8218D /* MedianTwoSortedArray.swift in Sources */,
 				DE7DE13C2AC46F1000A8218D /* LongestSubstring.swift in Sources */,
+				DE9035B62B0E07C100C99A34 /* MergeTwoSortedLists.swift in Sources */,
 				DE055B782ACBEDDB0025C944 /* ZigzagConversion.swift in Sources */,
 				DE7DE1362AC434EA00A8218D /* AddTwoSumNumber.swift in Sources */,
 				DECD02BD2ACF1E71004C537C /* ContainerWithMostWater.swift in Sources */,
@@ -455,6 +462,7 @@
 				DE7DE1442AC47EBE00A8218D /* TestMedianTwoSortedArray.swift in Sources */,
 				DE055B802ACC19A50025C944 /* ReverseIntegerTests.swift in Sources */,
 				DE7DE1332AC4253100A8218D /* TestTwoSum.swift in Sources */,
+				DE9035B82B0E07E600C99A34 /* MergeTwoSortedListsTests.swift in Sources */,
 				DE3321242ADE5FFC00BA64E4 /* RomanToIntTests.swift in Sources */,
 				DE6918092AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift in Sources */,
 				DE7DE1392AC436DD00A8218D /* TestAddTwoSumNumber.swift in Sources */,
