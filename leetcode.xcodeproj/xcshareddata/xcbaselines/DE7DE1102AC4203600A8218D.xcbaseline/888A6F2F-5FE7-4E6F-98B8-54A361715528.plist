@@ -95,6 +95,19 @@
 				</dict>
 			</dict>
 		</dict>
+		<key>PlusOneTests</key>
+		<dict>
+			<key>testPlusOne()</key>
+			<dict>
+				<key>com.apple.XCTPerformanceMetric_WallClockTime</key>
+				<dict>
+					<key>baselineAverage</key>
+					<real>0.000120</real>
+					<key>baselineIntegrationDisplayName</key>
+					<string>Local Baseline</string>
+				</dict>
+			</dict>
+		</dict>
 		<key>RomanToIntTests</key>
 		<dict>
 			<key>testRomanToInt()</key>
