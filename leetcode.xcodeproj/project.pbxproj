@@ -51,6 +51,8 @@
 		DE9035C82B0FA15000C99A34 /* LengthOfLastWordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9035C72B0FA15000C99A34 /* LengthOfLastWordTests.swift */; };
 		DE9035CA2B0FA6F500C99A34 /* PlusOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9035C92B0FA6F500C99A34 /* PlusOne.swift */; };
 		DE9035CC2B0FA71100C99A34 /* PlusOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9035CB2B0FA71100C99A34 /* PlusOneTests.swift */; };
+		DE9035CE2B0FB49500C99A34 /* AddBinary.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9035CD2B0FB49500C99A34 /* AddBinary.swift */; };
+		DE9035D02B0FB4BA00C99A34 /* AddBinaryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9035CF2B0FB4BA00C99A34 /* AddBinaryTests.swift */; };
 		DECD02BD2ACF1E71004C537C /* ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD02BC2ACF1E71004C537C /* ContainerWithMostWater.swift */; };
 		DECD02BF2ACF1E85004C537C /* ContainerWithMostWaterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DECD02BE2ACF1E85004C537C /* ContainerWithMostWaterTests.swift */; };
 		DEF164E32ACDEC6F00F38F67 /* StringToInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF164E22ACDEC6F00F38F67 /* StringToInt.swift */; };
@@ -122,6 +124,8 @@
 		DE9035C72B0FA15000C99A34 /* LengthOfLastWordTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LengthOfLastWordTests.swift; sourceTree = "<group>"; };
 		DE9035C92B0FA6F500C99A34 /* PlusOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOne.swift; sourceTree = "<group>"; };
 		DE9035CB2B0FA71100C99A34 /* PlusOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusOneTests.swift; sourceTree = "<group>"; };
+		DE9035CD2B0FB49500C99A34 /* AddBinary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinary.swift; sourceTree = "<group>"; };
+		DE9035CF2B0FB4BA00C99A34 /* AddBinaryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBinaryTests.swift; sourceTree = "<group>"; };
 		DECD02BC2ACF1E71004C537C /* ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater.swift; sourceTree = "<group>"; };
 		DECD02BE2ACF1E85004C537C /* ContainerWithMostWaterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWaterTests.swift; sourceTree = "<group>"; };
 		DEF164E22ACDEC6F00F38F67 /* StringToInt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToInt.swift; sourceTree = "<group>"; };
@@ -310,6 +314,7 @@
 				DE9035B12B0DFFF400C99A34 /* ValidParentheses.swift */,
 				DE9035BD2B0F411700C99A34 /* FirstOccurrenceInAString.swift */,
 				DE9035C52B0FA12D00C99A34 /* LengthOfLastWord.swift */,
+				DE9035CD2B0FB49500C99A34 /* AddBinary.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -326,6 +331,7 @@
 				DE9035B32B0E003E00C99A34 /* ValidParenthesesTests.swift */,
 				DE9035BF2B0F414100C99A34 /* FirstOccurrenceInAStringTests.swift */,
 				DE9035C72B0FA15000C99A34 /* LengthOfLastWordTests.swift */,
+				DE9035CF2B0FB4BA00C99A34 /* AddBinaryTests.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -477,6 +483,7 @@
 				DE3321282ADEF42C00BA64E4 /* ThreeSum.swift in Sources */,
 				DE9035BA2B0E483400C99A34 /* RemoveDuplicatesFromSortedArray.swift in Sources */,
 				DE33211D2ADBD4DC00BA64E4 /* IntToRoman.swift in Sources */,
+				DE9035CE2B0FB49500C99A34 /* AddBinary.swift in Sources */,
 				DE3321222ADE5FD000BA64E4 /* RomanToInt.swift in Sources */,
 				DE9035B22B0DFFF400C99A34 /* ValidParentheses.swift in Sources */,
 				DE7DE1052AC4203200A8218D /* leetcodeApp.swift in Sources */,
@@ -503,6 +510,7 @@
 				DE9035CC2B0FA71100C99A34 /* PlusOneTests.swift in Sources */,
 				DE6918092AC56E2A000BD2C9 /* TestLongestPalindromicSubstring.swift in Sources */,
 				DE7DE1392AC436DD00A8218D /* TestAddTwoSumNumber.swift in Sources */,
+				DE9035D02B0FB4BA00C99A34 /* AddBinaryTests.swift in Sources */,
 				DE9035B02B0DFA2A00C99A34 /* LongestCommonPrefixTests.swift in Sources */,
 				DE9035BC2B0E487000C99A34 /* RemoveDuplicatesFromSortedArrayTests.swift in Sources */,
 				DE9035C42B0F46E700C99A34 /* SearchInsertPositionTests.swift in Sources */,
